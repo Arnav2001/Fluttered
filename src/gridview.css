@@ -1,0 +1,30 @@
+.animated-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .topic-card {
+    background-color: #fff;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+  }
+  
+  .topic-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2{
+    font-size: 100%;
+    color: #141E46;
+  }
+  p{
+    font-size: 80%;
+    color: #141E46;
+  }

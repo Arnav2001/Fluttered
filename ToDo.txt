@@ -3,7 +3,7 @@ E learning DSA Website
 2. js installation 
 3. multiple language code available 
 4. search 
-5.compiler support for c++ java python
+5. compiler support for c++ java python
 6. quiz 
 7. notes for local storage
 8. docker support if relevant

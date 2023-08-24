@@ -1,0 +1,67 @@
+.main {
+    width: 100%;
+    height: 100vh; /* Makes the section cover the entire viewport height */
+    display: inline-block;
+    align-items: center;
+  }
+  .image{
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    background-color: #BB2525;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  
+  .text {
+    font-size: 12px;
+    font-weight: 700;
+    color: #FFF5E0;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .dropdown {
+    width: 100px;
+    padding: 10.5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .input {
+    width: 200px;
+    flex-grow: 1;
+    padding: 10.5px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+  }
+  
+  .search-button {
+    background-color: #141E46;
+    color: white;
+    border: none;
+    padding: 10.5px 20px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  h1{
+    color: white;
+    font-size: 80px;
+    font-family: lora;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+  }
